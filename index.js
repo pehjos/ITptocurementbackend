@@ -36,7 +36,7 @@ app.post('/api/email', (req, res) => {
       .messages()
       .send(
         {
-          from: 'sethnkrumah86@gmail.com',
+          from: 'pehjos15@gmail.com',
           to: `${email}`,
           subject: `${subject}`,
           html: `<p>${message}</p>`,
